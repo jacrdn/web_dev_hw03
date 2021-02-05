@@ -1,0 +1,101 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(to bottom right, rgb(110, 247, 128), rgb(242, 121, 196));
+  height: 1080px;
+}
+
+.App {
+  background-position: bottom;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.App > #cows {
+  font-size: 28px;
+  margin-top: 200px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.App > #bulls {
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.App > #lastGuess {
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.App > #lives {
+  font-size: 28px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.reset {
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: rgb(212, 154, 190);
+  font-size: 28px;
+  outline: none;
+  font: 'Arial';
+  display: inline-block;
+
+}
+
+#guess {
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: rgb(212, 154, 190);
+  font-size: 28px;
+  outline: none;
+  font: 'Arial';
+}
+
+#txBox {
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: rgb(191, 138, 171);
+  font-size: 28px;
+  outline: none;
+  font: 'Arial';
+  
+}
+
+#lose {
+  font-size: 28px;
+  margin-top: 200px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+
+#win {
+  font-size: 28px;
+  margin-top: 200px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+
